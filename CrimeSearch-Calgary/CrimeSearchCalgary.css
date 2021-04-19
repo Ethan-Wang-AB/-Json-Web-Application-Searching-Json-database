@@ -1,0 +1,81 @@
+/*  Format the grid display */
+@media all {
+    div#bookmarks {
+        display: block;
+    }
+    .header {
+        background-color:rgb(97, 55, 3);
+        color: white;
+        display: inline-flex
+    }
+    span#hdr-sector,
+    span.row-sector {
+        width: 110px;
+        padding-left: 5px;
+    }
+    span#hdr-rowid,
+    span.row-rowid {
+        width: 40px;
+        padding-left: 5px;
+    }
+    span#hdr-map,
+    span.row-map {
+        width: 100px;
+        padding-left: 5px;
+    }
+    span#hdr-community_name,
+    span.row-community_name {
+        width: 200px;
+    }
+    span#hdr-group_category,
+    span.row-group_category {
+        width: 150px;
+    }
+    span#hdr-latitude, #hdr-longitude,
+    span.row-latitude,.row-longitude {
+        width: 180px;
+    }
+    span#hdr-category,
+    span.row-category {
+        width: 200px;
+    }
+    span#hdr-category,
+    span.row-category {
+        width: 250px;
+    }
+
+  
+    .row {
+        display: inline-flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .odd-row {
+        background-color:rgb(120, 165, 114);
+    }
+    .even-row {
+        background-color:rgb(126, 240, 111);
+    }
+
+}
+
+@media all {
+    #searchbox {
+        border: 1px solid darkgreen;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: darkgrey;
+        margin: 20px;
+        width: 200px;
+        min-width: 200px;
+
+    }
+    #searchbox label {
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #button-area {
+        margin-top: 20px;
+        text-align: right;
+    }
+}

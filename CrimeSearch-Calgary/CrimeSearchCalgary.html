@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crime Stats in Calgary</title>
+    <script type='text/javascript' src='CrimeSearchCalgary.js'></script>
+    <link href="CrimeSearchCalgary.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+    <header>
+        <h3>This page will allow us to search for Crime Stats in Calgary</h3>
+    </header>
+
+    <form id="searchbox">
+        <label for="community_name">Search for community_name:</label>
+        <input type="text" id="community_name" name="community_name" placeholder="THORNCLIFFE" onkeyup="searchAll3()">
+        <label for="group_category">Search for group_category:</label>
+        <input type="text" id="group_category" name="group_category" placeholder="Crime" onkeyup="searchAll3()">
+        <label for="category">Search for sub category:</label>
+        <input type="text" id="category" name="category" placeholder="Theft FROM Vehicle" onkeyup="searchAll3()">
+        <div id="button-area">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+
+    <div id="SearchResults3"></div>
+
+    <br>
+    <br>
+   
+
+
+ 
+</body>
+
+</html>
